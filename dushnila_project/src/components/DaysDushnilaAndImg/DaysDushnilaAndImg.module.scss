@@ -39,6 +39,7 @@
             }
         }
     }
+
     .imgDushnilaCompany{
         img{
             width: 336px;
@@ -48,6 +49,7 @@
         }  
     }
 }
+
 @media (max-width: 1200px) { 
     .additionalCardsFromStrangler{
         display: block;
@@ -65,13 +67,16 @@
         }
         .imgDushnilaCompany{
             img{
-                width: 100%;
+                display: block;
+                width: 450px;
+                margin: 0 auto;
                 border-radius: 0;
                 border: none;
             }
         }
     }
 }
+
 @media (max-width: 920px){
     .additionalCardsFromStrangler{
         .daysDushnila{
@@ -79,11 +84,22 @@
         }
     }  
 }
+
 @media (max-width: 770px){
     .additionalCardsFromStrangler{
         top: 740px;
+
         .daysDushnila{
             padding-left: 40px;
+        }
+        
+        .imgDushnilaCompany{
+            img{
+                display: block;
+                width: 300px;
+                height: 250px;
+                margin: 0 auto;
+            }
         }
     }  
 }

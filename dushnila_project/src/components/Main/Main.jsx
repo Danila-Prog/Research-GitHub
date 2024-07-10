@@ -1,11 +1,11 @@
-import style from "./Main.module.scss";
-import axios from "axios";
 import { useEffect, useState } from "react";
-import { DaysDushnilaAndImg } from "../DaysDushnilaAndImg/DaysDushnilaAndImg";
-import { ParametrsOfDushnilaBad } from "../ParametrsOfDushnila/ParametrsBad/ParametrsOfDushnilaBad";
-import { ParametrsOfDushnilaGood } from "../ParametrsOfDushnila/ParametrsGood/ParametrsOfDushnilaGood";
+import axios from "axios";
+import { DaysDushnilaAndImg } from "../DaysDushnilaAndImg/DaysDushnilaAndImg.jsx";
+import { ParametrsOfDushnilaBad } from "../ParametrsOfDushnila/ParametrsBad/ParametrsOfDushnilaBad.jsx";
+import { ParametrsOfDushnilaGood } from "../ParametrsOfDushnila/ParametrsGood/ParametrsOfDushnilaGood.jsx";
 import {DushnilaEmotionBad} from '../DushnilaEmotion/DushnilaEmotionBad/DushnilaEmotionBad.jsx'
 import {DushnilaEmotionGood} from '../DushnilaEmotion/DushnilaEmotionGood/DushnilaEmotionGood.jsx'
+import style from "./Main.module.scss";
 export const Main = () => {
 
   const [param, setParam] = useState({ temp: 0, co2: 0 });
@@ -15,7 +15,7 @@ export const Main = () => {
       axios
         .get("http://dushnila.gooddelo.com/data")
         .then((res) => setParam({ temp: res.data.temp, co2: res.data.co2 }));
-    }, 5000);
+    }, 1000);
   }, [param]);
 
   return (
@@ -27,6 +27,7 @@ export const Main = () => {
               <DushnilaEmotionGood />
               
               <DaysDushnilaAndImg />
+              
           </section>
 
           <ParametrsOfDushnilaGood

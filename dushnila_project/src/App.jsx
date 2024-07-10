@@ -1,10 +1,9 @@
-import { Header } from "./Header/Header";
-import { Main } from "./Main/Main";
+import { Home } from "./pages/Home/Home";
+
 function App() {
   return (
     <>
-      <Header />
-      <Main />
+      <Home />
     </>
   );
 }
