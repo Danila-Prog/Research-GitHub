@@ -1,7 +1,7 @@
 import style from "./Main.module.scss";
-import { DaysDushnilaAndImg } from "../DaysDushnilaAndImg/DaysDushnilaAndImg";
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { DaysDushnilaAndImg } from "../DaysDushnilaAndImg/DaysDushnilaAndImg";
 import { ParametrsOfDushnilaBad } from "../ParametrsOfDushnila/ParametrsBad/ParametrsOfDushnilaBad";
 import { ParametrsOfDushnilaGood } from "../ParametrsOfDushnila/ParametrsGood/ParametrsOfDushnilaGood";
 import {DushnilaEmotionBad} from '../DushnilaEmotion/DushnilaEmotionBad/DushnilaEmotionBad.jsx'

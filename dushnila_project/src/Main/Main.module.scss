@@ -8,12 +8,17 @@
     }
     
 }
-// @media (max-width: 495px) {
-//     .MainInfo {
-//         width: 495px;
-//         display: block;
-//     }
-// }
+@media (max-width: 1200px) {
+    .MainInfo {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        .leftInformation{
+            margin-right: 0;
+        }
+    }
+}
+
 
 
 

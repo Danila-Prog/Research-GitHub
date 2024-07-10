@@ -13,7 +13,7 @@ export const DaysDushnilaAndImg = () => {
       </div>
       <div className={style.imgDushnilaCompany}>
         <img
-          src="https://s1.1zoom.ru/big7/425/China_Jiuzhaigou_park_Parks_Lake_Mountains_Autumn_530368_2560x1706.jpg"
+          src="https://papik.pro/grafic/uploads/posts/2023-04/1681551478_papik-pro-p-logotip-sberbanka-na-prozrachnom-fone-vekt-31.png"
           alt=""
         />
       </div>
