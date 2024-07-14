@@ -1,0 +1,28 @@
+.inputsRepo{
+    text-align: center;
+    input{
+        width: 500px;
+        height: 35px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        margin-right: 20px;
+        padding-left: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    button{
+        margin-bottom: 10px;
+    }
+}
+.ordinaryRepoAndFavoritesRepo{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 100px;
+    h1{
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 35px;
+    }
+    
+}
